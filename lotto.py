@@ -26,6 +26,7 @@ while converting:
     except ValueError:
         print('Number not in range or letter. Try again..')
 
+int_list = sorted(int_list)
 print(f"Numbers you've picked: {int_list}")
 print(f'Winning numbers: {lotto_numbers}')
 
